@@ -1,0 +1,162 @@
+{
+  "rules": "Oct-Nov, FIRMS type 0, VIIRS confidence != low, MODIS confidence >= 30, same-day 0.004 deg duplicates removed, inside GADM 4.1 Punjab",
+  "viirs_events_by_year": {
+    "2012": 63165,
+    "2013": 56148,
+    "2014": 65539,
+    "2015": 57599,
+    "2016": 78342,
+    "2017": 52535,
+    "2018": 53500,
+    "2019": 41458,
+    "2020": 66399,
+    "2021": 70455,
+    "2022": 42858,
+    "2023": 28716,
+    "2024": 8196,
+    "2025": 3702
+  },
+  "modis_events_by_year": {
+    "2001": 1146,
+    "2002": 9668,
+    "2003": 10251,
+    "2004": 8850,
+    "2005": 15234,
+    "2006": 9867,
+    "2007": 14278,
+    "2008": 13539,
+    "2009": 13120,
+    "2010": 12924,
+    "2011": 14098,
+    "2012": 15203,
+    "2013": 12916,
+    "2014": 15285,
+    "2015": 11336,
+    "2016": 16620,
+    "2017": 10579,
+    "2018": 12568,
+    "2019": 9716,
+    "2020": 16202,
+    "2021": 17144,
+    "2022": 10402,
+    "2023": 8231,
+    "2024": 3773,
+    "2025": 2974
+  },
+  "viirs_peak_year": 2016,
+  "viirs_2025_vs_2016_2021_mean": 0.061,
+  "modis_trend_2002_2021_kendall_tau": 0.263,
+  "modis_trend_2002_2021_p": 0.1126,
+  "district_share_2016_2021": {
+    "Sangrur": 0.124,
+    "Bathinda": 0.097,
+    "Firozpur": 0.083,
+    "Moga": 0.077,
+    "Muktsar": 0.073,
+    "Patiala": 0.069,
+    "Ludhiana": 0.067,
+    "Mansa": 0.065,
+    "Barnala": 0.058,
+    "Tarn Taran": 0.049
+  },
+  "district_share_2022_2025": {
+    "Sangrur": 0.143,
+    "Firozpur": 0.096,
+    "Bathinda": 0.09,
+    "Moga": 0.074,
+    "Tarn Taran": 0.064,
+    "Muktsar": 0.063,
+    "Patiala": 0.062,
+    "Mansa": 0.06,
+    "Barnala": 0.055,
+    "Faridkot": 0.048
+  },
+  "north_districts": [
+    "Amritsar",
+    "Tarn Taran",
+    "Gurdaspur"
+  ],
+  "south_districts": [
+    "Bathinda",
+    "Sangrur",
+    "Mansa",
+    "Barnala",
+    "Muktsar",
+    "Faridkot"
+  ],
+  "median_burn_day_from_1_oct": {
+    "2012": {
+      "north": 18.0,
+      "south": 34.0,
+      "gap_days": 16.0
+    },
+    "2013": {
+      "north": 28.0,
+      "south": 32.0,
+      "gap_days": 4.0
+    },
+    "2014": {
+      "north": 27.0,
+      "south": 34.0,
+      "gap_days": 7.0
+    },
+    "2015": {
+      "north": 30.0,
+      "south": 34.0,
+      "gap_days": 4.0
+    },
+    "2016": {
+      "north": 24.0,
+      "south": 34.0,
+      "gap_days": 10.0
+    },
+    "2017": {
+      "north": 23.0,
+      "south": 32.0,
+      "gap_days": 9.0
+    },
+    "2018": {
+      "north": 27.0,
+      "south": 36.0,
+      "gap_days": 9.0
+    },
+    "2019": {
+      "north": 25.0,
+      "south": 35.0,
+      "gap_days": 10.0
+    },
+    "2020": {
+      "north": 21.0,
+      "south": 35.0,
+      "gap_days": 14.0
+    },
+    "2021": {
+      "north": 30.0,
+      "south": 38.0,
+      "gap_days": 8.0
+    },
+    "2022": {
+      "north": 23.0,
+      "south": 35.0,
+      "gap_days": 12.0
+    },
+    "2023": {
+      "north": 29.0,
+      "south": 37.0,
+      "gap_days": 8.0
+    },
+    "2024": {
+      "north": 30.0,
+      "south": 40.0,
+      "gap_days": 10.0
+    },
+    "2025": {
+      "north": 29.0,
+      "south": 34.0,
+      "gap_days": 5.0
+    }
+  },
+  "years_south_later_than_north": 14,
+  "years_compared": 14,
+  "mean_gap_days": 9.0
+}

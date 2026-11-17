@@ -1,0 +1,9 @@
+# Large or licensed inputs: download them (see README)
+data/raw_archive
+data/gadm41_IND_2.*
+data/*.osm.pbf
+# Regenerated model outputs (rasters, caches); the land-cover cache is kept so the model runs without Planetary Computer
+outputs/model/*
+!outputs/model/landcover_frac.npz
+__pycache__/
+.DS_Store

@@ -1,0 +1,10 @@
+numpy>=2.0
+pandas>=2.2
+geopandas>=1.0
+rasterio>=1.4
+scipy>=1.13
+matplotlib>=3.9
+pyogrio>=0.10
+shapely>=2.0
+pystac-client>=0.8
+planetary-computer>=1.0
